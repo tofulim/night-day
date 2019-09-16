@@ -1,0 +1,26 @@
+h1{
+  text-align : center;
+  font-size:45px;
+}
+div.boxes{
+  width:20%;
+  margin:auto;
+}
+
+div.grid{
+  display : grid;
+  grid-template-columns : 150px 1fr;
+  margin-top:40px;
+  border-top:solid gray 1px;
+}
+div.grid ul{
+  border-right:solid gray 1px;
+  margin-top:0px;
+  padding-top:20px;
+}
+div.article{
+  padding-left:40px;
+}
+body{
+  margin:0;
+}
